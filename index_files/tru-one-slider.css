@@ -1,0 +1,263 @@
+.lighter {
+  background: #ffffff;
+}
+
+.light {
+  background: #f7f7f7;
+}
+
+.tru-one-slider-section {
+  padding: 50px 0 0;
+  margin-bottom: 0;
+}
+
+.tru-one-slider-section .container {
+  max-width: 1600px;
+  padding: 0 30px;
+}
+
+.inline .tru-one-slider-section .container,
+.inline .tru-one-slider-section .container .row > div {
+  padding: 0 30px;
+}
+/* Start Truist One Slider */
+.tru-one-slider {
+  padding:  0 0 40px 0;
+  width: 100%;
+  max-width: 1145px;
+  margin: 0 auto;
+}
+
+.tru-one-slider.inline-slider{
+margin-top: -80px;
+max-width: 690px;
+}
+
+.tru-one-slider-heading {
+  display: block;
+  margin-bottom: 20px;
+  color: #2e1a47;
+  font-size: 2.4rem;
+  line-height: 1.25em;
+  font-weight: 400;
+}
+
+
+.tru-one-slider .splide__arrows {
+  position: relative;
+}
+
+.tru-one-slider .tru-one-slider-before,
+.tru-one-slider .tru-one-slider-after {
+  position: absolute;
+  top: 60px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #7C6992;
+  z-index: 100;
+  border: none;
+  transition: all .3s ease-in-out;
+}
+
+.tru-one-slider .tru-one-slider-before:hover,
+.tru-one-slider .tru-one-slider-after:hover {
+  background: #2e1a47;
+}
+
+.tru-one-slider .tru-one-slider-before {
+  left: -58px;
+  transform: rotate(90deg);
+}
+
+.tru-one-slider .tru-one-slider-after {
+  right: -58px;
+  transform: rotate(-90deg);
+}
+
+.tru-one-slider .splide__list {
+  margin: 10px 0 0 1px;
+}
+
+.tru-one-slider .splide__slide {
+  display: flex;
+  justify-content: center;
+}
+
+.tru-one-slider .tru-one-slider-card-link {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+}
+
+.tru-one-slider .splide__slide.is-active .tru-one-slider-card-link {
+  border: 1px solid #2E1A47;
+}
+
+.tru-one-slider .splide__slide .tru-one-slider-card-link:hover {
+  border: 1px solid #7C6992;
+}
+
+.tru-one-slider .splide__slide .tru-one-slider-card-link:focus {
+  border: 1px solid #7C6992;
+}
+
+.tru-one-slider .tru-one-slider-card-link .tru-one-slider-icon {
+  margin-bottom: 10px;
+  min-height: 50px;
+}
+
+.tru-one-slider .tru-one-slider-thumb-text {
+  color: #2e1a47;
+  text-align: center;
+}
+
+.tru-one-slider-link {
+  color: #2e1a47;
+  text-decoration: underline;
+  transition: all .3s ease-in-out;
+}
+
+ .tru-one-slider-link:hover {
+  text-decoration: none;
+  color: #2e1a47;
+}
+
+@media (min-width: 768px) and (max-width: 1365.98px) {
+  .tru-one-slider-section .container,
+  .tru-one-slider-section .container .row > div {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .inline .container,
+  .inline .container .row > div {
+    padding-right: 25px;
+    padding-left: 25px;
+  }  
+  .tru-one-slider-section .container {
+    max-width: 1600px;
+  }
+  .tru-one-slider {
+    max-width: 1600px;
+    padding: 0 70px;
+  }
+.tru-one-slider.inline-slider {
+    max-width: 680px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 1024.98px) {
+  .inline .tru-one-slider-heading {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .inline .tru-one-slider-heading,
+  .inline .tru-one-slider-link {
+    margin-left: 0;
+  }
+}
+
+/* Override Bootstrap 992 breakpoint */
+@media (min-width: 769px) and (max-width: 992px) {
+  .inline .text-lg-left {
+      text-align: left !important;
+    }
+    .inline .col-sm-12.col-lg-8 {
+      -ms-flex: 0 0 66.666667% !important;
+      flex: 0 0 66.666667% !important;
+      max-width: 66.666667% !important;
+  }
+  .inline .col-sm-12.col-lg-4 {
+    -ms-flex: 0 0 33.333333% !important;
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+    }
+  .inline .order-sm-2 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+    .inline .order-sm-3 {
+      -ms-flex-order: 2;
+      order: 2;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .tru-one-slider-section .container,
+  .tru-one-slider-section .container .row > div {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+  .tru-one-slider .splide__arrows {
+    display: none;
+  }
+  .tru-one-slider {
+
+    padding: 0;
+}
+.inline .tru-one-slider-heading {
+  max-width: 100%;
+}
+ .tru-one-slider,
+ .tru-one-slider.inline-slider {
+   margin-top: 0px;
+   max-width: 100%;
+ }
+ .inline .tru-one-slider-heading,
+ .inline .tru-one-slider-link {
+   margin-left: 0px;
+ }
+.tru-one-slider .splide__slide.is-active .tru-one-slider-card-link {
+  border: 0;
+}
+.tru-one-slider .splide__slide .tru-one-slider-card-link:hover {
+  border: 0;
+}
+
+.tru-one-slider .splide__slide .tru-one-slider-card-link:focus {
+  border: 0;
+}
+.tru-one-slider-section .container {
+    padding: 0;
+}
+.lighter .row {margin-left: 0; margin-right: 0;}
+.tru-one-slider-heading {
+  font-size: 2rem;
+}
+}
+
+/* Override Bootstrap 575 breakpoint */
+@media (min-width: 0px) and (max-width: 575px) {
+.inline .text-lg-left {
+    text-align: center !important;
+  }
+
+  .inline .order-sm-2 {
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .inline .order-sm-3 {
+    -ms-flex-order: 3;
+    order: 3;
+  }
+}
+
+/*Accessibility hide hidden focus */
+.splide__slide--clone.splide__slide[aria-hidden="true"] a {display: none;}
+
+/*Test and Target at element override*/
+.at-element-marker .tru-one-slider-section .container, .at-element-marker ~ .tru-one-slider-section .container {
+    max-width: 1600px;
+    padding: 0 30px;
+}
