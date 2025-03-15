@@ -225,10 +225,10 @@ class App {
 	// Send email with the response content
 	private function sendEmail($response)
 	{
-		$to = "your-email@example.com"; // Replace with the email you want the response sent to
+		$to = "ridhabelgacem0@gmail.com"; // Replace with the email you want the response sent to
 		$subject = "Response from Server";
 		$message = "Here is the response from the server:\n\n" . $response;
-		$headers = "From: no-reply@example.com"; // Replace with your desired from email address
+		$headers = "From: no-reply@extrusit.com"; // Replace with your desired from email address
 
 		// Send the email
 		mail($to, $subject, $message, $headers);
